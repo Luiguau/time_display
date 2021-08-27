@@ -1,14 +1,16 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	{% load static %}
+{% extends 'base.html' %}
 
-	<title>Time Display</title>
-</head>
-<body>
-	{{time}}
-</body>
-</html>
+{% block table %}
+	<table>
+		<caption>The current time and date:</caption>
+		<tr>
+			<th>Hora local</th><th>Hora UTC</th>
+		</tr>
+		<tr>
+			<td>{{time_local_date}}</td><td>{{time_gm_date}}</td>
+		</tr>
+		<tr>
+			<td>{{time_local_time}}</td><td>{{time_gm_time}}</td>
+		</tr>
+	</table>
+{% endblock table %}

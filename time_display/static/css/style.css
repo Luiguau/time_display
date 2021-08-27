@@ -1,0 +1,17 @@
+body{
+	background-color: #4E5F61;
+}
+
+table{
+	border: 1px solid #000000;
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 22px;
+}
+caption{
+	color: #E0D15A;
+}
+th{
+	color: #948A43;
+}
