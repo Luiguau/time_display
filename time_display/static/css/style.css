@@ -8,10 +8,14 @@ table{
 	text-align: center;
 	margin: 0 auto;
 	font-size: 22px;
+
+}
+.metodo{
+	color: #8BAAAD;
 }
 caption{
-	color: #E0D15A;
+	color: #57A5AD;
 }
 th{
-	color: #948A43;
+	color: #C8F5FA;
 }

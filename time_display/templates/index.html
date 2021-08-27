@@ -4,13 +4,16 @@
 	<table>
 		<caption>The current time and date:</caption>
 		<tr>
-			<th>Hora local</th><th>Hora UTC</th>
+			<th colspan="2" class="metodo"> Usando modulo Time</th><th colspan="2" class="metodo"> Usando modulo Datetime</th>
 		</tr>
 		<tr>
-			<td>{{time_local_date}}</td><td>{{time_gm_date}}</td>
+			<th>Hora local</th><th>Hora UTC</th><th>Hora local</th><th>Hora UTC</th>
 		</tr>
 		<tr>
-			<td>{{time_local_time}}</td><td>{{time_gm_time}}</td>
+			<td>{{time_local_date}}</td><td>{{time_gm_date}}</td><td>{{datetime_local_date}}</td><td>{{datetime_gm_date}}</td>
+		</tr>
+		<tr>
+			<td>{{time_local_time}}</td><td>{{time_gm_time}}</td><td>{{datetime_local_time}}</td><td>{{datetime_gm_time}}</td>
 		</tr>
 	</table>
 {% endblock table %}
