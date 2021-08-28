@@ -14,6 +14,5 @@ def index(request):
 		"datetime_local_time":datetime.now().strftime("%H %M, %S"),
 		"datetime_gm_date":datetime.now().strftime("%b %d, %Y"),
 		"datetime_gm_time":datetime.now().strftime("%H %M, %S"),
-
     }
     return render(request,'index.html', context)

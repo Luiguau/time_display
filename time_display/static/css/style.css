@@ -10,12 +10,20 @@ table{
 	font-size: 22px;
 
 }
+
 .metodo{
 	color: #8BAAAD;
 }
+
 caption{
 	color: #57A5AD;
 }
+
 th{
 	color: #C8F5FA;
 }
+
+h1 {
+	font-family: Arial,sans-serif;
+	color: #FF214F;
+	}
