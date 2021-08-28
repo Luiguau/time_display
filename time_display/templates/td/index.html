@@ -5,36 +5,13 @@
 {% endblock title %}
 
 {% block table %}
-	<table>
-		<caption>The current time and date:</caption>
+	<table id="index">
+		<caption>Favor elija la aplicación a ejecutar</caption>
 		<tr>
-			<th colspan="2" class="metodo"> Usando modulo Time</th><th colspan="2" class="metodo"> Usando modulo Datetime</th>
-		</tr>
-		<tr>
-			<th>Hora local</th><th>Hora UTC</th><th>Hora local</th><th>Hora UTC</th>
-		</tr>
-		<tr>
-			<td>{{time_local_date}}</td><td>{{time_gm_date}}</td><td>{{datetime_local_date}}</td><td>{{datetime_gm_date}}</td>
-		</tr>
-		<tr>
-			<td>{{time_local_time}}</td><td>{{time_gm_time}}</td><td>{{datetime_local_time}}</td><td>{{datetime_gm_time}}</td>
+			<td><a href="time_display/">Time Display</a></td>
+			<td><a href="random_word/">Random Word</a></td>
 		</tr>
 	</table>
-	<br>
-	<table>
-		<caption>The current time and date:</caption>
-		<tr>
-			<th class="metodo"> Usando javascript</th>
-		</tr>
-		<tr>
-			<th>Hora local</th>
-		</tr>
-		<tr>
-			<td id="Fecha"></td>
-		</tr>
-		<tr>
-			<td id="HoraActual"></td>
-		</tr>
-	</table>
+
 
 {% endblock table %}

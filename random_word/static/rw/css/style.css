@@ -28,3 +28,7 @@ h1 {
 	font-family: Arial,sans-serif;
 	color: #FF214F;
 	}
+	
+form{
+	display: inline-block;
+}

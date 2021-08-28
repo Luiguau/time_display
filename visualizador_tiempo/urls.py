@@ -15,10 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from time_display import views
 
 urlpatterns = [
     # path('admin/', admin.site.urls),
-    path('', include('time_display.urls')),
-    path('time_display/', include('time_display.urls')),
+    path('', views.index),
+    path('time_display/', views.time),
     path('random_word/', include('random_word.urls')),
 ]
